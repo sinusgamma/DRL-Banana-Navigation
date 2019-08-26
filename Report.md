@@ -19,9 +19,11 @@ This network has an input dimension of 37 as this is the state space dimension. 
 The goal of the project was to train an agent to achieve an average score of +13 over 100 consecutive episodes. With my neural-network architecture and hyperparameters the non-double DQN achived this goal during less than 500 episodes, while the Double DQN during more than 500 episodes, but the difference wasn't large.
 
 The non-Double DQN:
+
 ![Result-Simple](https://github.com/sinusgamma/DRL-Banana-Navigation/blob/master/result_simple.jpg)
 
 The Double DQN
+
 ![Result-Double](https://github.com/sinusgamma/DRL-Banana-Navigation/blob/master/result_double.jpg)
 
 ## Possible Improvements
