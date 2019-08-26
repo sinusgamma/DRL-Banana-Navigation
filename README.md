@@ -11,7 +11,7 @@ In the animatation bellow you can see my trained agent navigating in the world.
 
 ![Banana World](https://github.com/sinusgamma/DRL-Banana-Navigation/blob/master/banana_navigation.gif)
 
-I trained two agents. One is a Deep Q-Network DQN with "experience replay" and "fixed § targets". The other algorithm uses Double DQN as well. In my case there wasn't significant difference between the performance of these two solutions. 
+I trained two agents. One is a Deep Q-Network - DQN with "experience replay" and "fixed Q targets". The other algorithm uses Double DQN as well. In my case there wasn't significant difference between the performance of these two solutions. 
 
 The exercise uses the Unity Machine Learning Agents Toolkit (https://github.com/Unity-Technologies/ml-agents)
 Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.
