@@ -7,6 +7,8 @@
 
 The goal of this project is to train an agent (AI) to navigate a virtual world where it can collect blue and yellow bananas. The task of the agent is to collect as many yellow bananas as possible, while avoiding the blue bananas.
 
+In the animatation bellow you can see my trained agent navigating in the world.
+
 ![Banana World](https://github.com/sinusgamma/DRL-Banana-Navigation/blob/master/banana_navigation.gif)
 
 I trained two agents. One is a Deep Q-Network DQN with "experience replay" and "fixed § targets". The other algorithm uses Double DQN as well. In my case there wasn't significant difference between the performance of these two solutions. 
