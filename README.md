@@ -43,3 +43,7 @@ Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br>
 
 Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+## Testing the trained AI
+
+After setting up the environment you can test the DQN and Double DQN algorithm and watch the agents collecting bananas. Calling ```load_watchai.py 0``` will call the non-DoubleDQN agent, while ```load_watchai.py 1``` will call the DoubleDQN agent.
