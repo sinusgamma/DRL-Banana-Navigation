@@ -8,6 +8,19 @@ For solving the banana problem I trained two agents. The first agent is based on
 
 As Deep Q-Learning tends to overestimate action values, I implemented **Double Q-Learning**, which has been shown to work well in practice to help with this. The Double DQN algorithm is a modification if the base DQN.
 
+## The training parameters
+
+* maximum step during episodes: max_t=1000
+* exploration rate start: eps_start=1.0
+* minimum exploration rate: eps_end=0.01
+* epsilon decay: eps_decay=0.995
+* replay buffer size: BUFFER_SIZE = int(1e5)
+* minibatch size: BATCH_SIZE = 64         
+* discount factor: GAMMA = 0.99            
+* for soft update of target parameters: TAU = 1e-3
+* learning rate: LR = 5e-4               
+* how often to update the network: UPDATE_EVERY = 4        
+
 ## The Neural Network
 
 Behind the DQN algorithms there is a simple neural network to estimate the Q values.

@@ -44,6 +44,10 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 
 Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
+## Training the AI
+
+The Navigation.ipynb file containes the training code. Running all the cells will train and save a new model.
+
 ## Testing the trained AI
 
 After setting up the environment you can test the DQN and Double DQN algorithm and watch the agents collecting bananas. Calling ```load_watch_ai.py 0``` will call the non-DoubleDQN agent, while ```load_watch_ai.py 1``` will call the DoubleDQN agent.
