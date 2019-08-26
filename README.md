@@ -46,4 +46,4 @@ Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository
 
 ## Testing the trained AI
 
-After setting up the environment you can test the DQN and Double DQN algorithm and watch the agents collecting bananas. Calling ```load_watchai.py 0``` will call the non-DoubleDQN agent, while ```load_watchai.py 1``` will call the DoubleDQN agent.
+After setting up the environment you can test the DQN and Double DQN algorithm and watch the agents collecting bananas. Calling ```load_watch_ai.py 0``` will call the non-DoubleDQN agent, while ```load_watch_ai.py 1``` will call the DoubleDQN agent.
